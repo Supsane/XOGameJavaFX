@@ -1,7 +1,6 @@
 package sample.mainWindow;
 
 import javafx.event.ActionEvent;
-import sample.optionsWindow.WindowOptions;
 
 public class ControllerMainWindow {
 
@@ -14,7 +13,7 @@ public class ControllerMainWindow {
     }
 
     public void options(ActionEvent actionEvent) {
-        new WindowOptions();
+
     }
 
     public void help(ActionEvent actionEvent) {
