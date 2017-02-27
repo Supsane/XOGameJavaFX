@@ -1,4 +1,4 @@
-package sample.mainWindow;
+package XOJavaFX.ru.geekbrains.Model;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -12,7 +12,7 @@ public class MainWindow extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("mainWindow.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../View/mainWindow.fxml"));
         primaryStage.setTitle("XOGameJavaFX");
         primaryStage.setScene(new Scene(root, 500, 500));
         primaryStage.show();

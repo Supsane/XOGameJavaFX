@@ -1,4 +1,4 @@
-package sample.optionsWindow;
+package XOJavaFX.ru.geekbrains.Controller;
 
 /**
  * Created by chashurin on 27.02.2017.

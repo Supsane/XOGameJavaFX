@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.layout.GridPane?>
 
-<VBox fx:controller="sample.mainWindow.ControllerMainWindow" xmlns:fx="http://javafx.com/fxml">
+<VBox fx:controller="XOJavaFX.ru.geekbrains.Controller.ControllerMainWindow" xmlns:fx="http://javafx.com/fxml">
     <MenuBar>
         <menus>
             <Menu text="Игра">

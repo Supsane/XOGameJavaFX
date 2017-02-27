@@ -1,4 +1,4 @@
-package sample.mainWindow;
+package XOJavaFX.ru.geekbrains.Controller;
 
 import javafx.event.ActionEvent;
 
