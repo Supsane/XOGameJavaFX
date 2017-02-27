@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.MenuItem?>
+
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml">
+    <MenuBar BorderPane.alignment="TOP_CENTER">
+        <menus>
+            <Menu text="Игра">
+                <items>
+                    <MenuItem text="Новая игра"/>
+                    <MenuItem text="Параметры"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Выход"/>
+                </items>
+            </Menu>
+            <Menu text="Помощь">
+                <items>
+                    <MenuItem text="Справка"/>
+                    <MenuItem text="Опрограмме"/>
+                </items>
+            </Menu>
+        </menus>
+    </MenuBar>
+</VBox>
