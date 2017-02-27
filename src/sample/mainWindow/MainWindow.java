@@ -6,6 +6,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+//http://code.makery.ch/library/javafx-8-tutorial/ru/
+
 public class MainWindow extends Application {
 
     @Override
