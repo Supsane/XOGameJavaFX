@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
-    <Button>
-      djfj
-    </Button>
-   <columnConstraints>
-      <ColumnConstraints />
-   </columnConstraints>
-   <rowConstraints>
-      <RowConstraints />
-   </rowConstraints>
+<GridPane alignment="CENTER" gridLinesVisible="true" xmlns="http://javafx.com/javafx/8.0.102"
+          xmlns:fx="http://javafx.com/fxml/1">
+    <columnConstraints>
+        <ColumnConstraints minWidth="40" prefWidth="40"/>
+        <ColumnConstraints minWidth="40" prefWidth="40"/>
+        <ColumnConstraints minWidth="40" prefWidth="40"/>
+        <ColumnConstraints/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="40" prefHeight="40"/>
+        <RowConstraints minHeight="40" prefHeight="40"/>
+        <RowConstraints minHeight="40" prefHeight="40"/>
+        <RowConstraints/>
+    </rowConstraints>
 
 </GridPane>
